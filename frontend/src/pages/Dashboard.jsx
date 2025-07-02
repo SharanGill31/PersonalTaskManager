@@ -5,8 +5,8 @@ import { useOutletContext } from 'react-router-dom';
 import TaskItem from '../components/TaskItem';
 import axios from 'axios';
 import TaskModel from '../components/TaskModel';
-
-const API_BASE = 'http://localhost:4000/api/tasks';
+// API BASE
+const API_BASE = 'https://personaltaskmanager-backend-c1vs.onrender.com/api/tasks';
 
 const Dashboard = () => {
   const context = useOutletContext() || [];

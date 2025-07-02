@@ -16,7 +16,7 @@ const TaskModal = ({ isOpen, onClose, taskToEdit }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     onClose();
-    // Add task submission logic here
+    
   };
 
   return (

@@ -14,7 +14,7 @@ const Login = ({ onSubmit, onSwitchMode }) => {
   const [rememberMe, setRememberMe] = useState(false)
 
   const navigate = useNavigate();
-  const url = 'http://localhost:4000';
+  const url = 'https://personaltaskmanager-backend-c1vs.onrender.com';
 
   useEffect(() => {
     const token = localStorage.getItem("token")

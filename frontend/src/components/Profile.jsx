@@ -8,7 +8,7 @@ import { Save } from 'lucide-react';
 import { personalFields } from '../assets/dummy';
 
 
-const API_URL = 'http://localhost:4000';
+const API_URL = 'https://personaltaskmanager-backend-c1vs.onrender.com';
 
 const Profile = ({ setCurrentUser, OnLogout }) => {
   const [profile, setProfile] = useState({ name: '', email: '' });
