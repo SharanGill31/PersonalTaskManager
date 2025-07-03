@@ -30,33 +30,6 @@ const PendingPage = () => {
 
   return (
     <div className="flex h-screen">
-      {/* Sidebar */}
-      <div className={layoutClasses.container.replace('p-6', 'p-4 w-64 bg-gray-100')}>
-        <div className="mb-6">
-          <h2 className="text-xl font-bold text-gray-800 mb-4">PRODUCTIVITY</h2>
-          <div className={PRODUCTIVITY_CARD.container}>
-            <div className={PRODUCTIVITY_CARD.header}>
-              <span className={PRODUCTIVITY_CARD.label}>Completion Rate</span>
-            </div>
-            <div className={PRODUCTIVITY_CARD.barBg}>
-              <div
-                className={PRODUCTIVITY_CARD.barFg}
-                style={{ width: `${completionRate}%` }}
-              ></div>
-            </div>
-            <span className="text-lg font-bold text-purple-700">{completionRate}%</span>
-          </div>
-        </div>
-        <ul className="space-y-2">
-          {menuItems.map((item) => (
-            <li key={item.path} className={layoutClasses.tabButton(false).replace('px-3', 'px-4')}>
-              {item.icon}
-              <span className="text-sm font-medium text-gray-600">{item.text}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
       {/* Main Content */}
       <div className={layoutClasses.container + ' flex-1 p-4'}>
         <div className={layoutClasses.headerWrapper}>
