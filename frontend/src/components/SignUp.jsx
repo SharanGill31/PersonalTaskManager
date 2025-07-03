@@ -3,7 +3,7 @@ import { UserPlus } from 'lucide-react';
 import axios from 'axios'; // Added axios import
 import { Inputwrapper, BUTTONCLASSES, MESSAGE_ERROR, MESSAGE_SUCCESS, FIELDS } from '../assets/dummy'; // Added FIELDS and BUTTONCLASSES import
 
-const API_URL = 'https://personaltaskmanager-backend-c1vs.onrender.com';
+const API_URL = 'https://personaltaskorganizer-backend.onrender.com';
 const INITIAL_FORM = { name: '', email: '', password: '' };
 
 const SignUp = ({ onSwitchMode }) => {

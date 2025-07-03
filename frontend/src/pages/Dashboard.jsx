@@ -6,7 +6,7 @@ import TaskItem from '../components/TaskItem';
 import axios from 'axios';
 import TaskModel from '../components/TaskModel';
 // API BASE
-const API_BASE = 'https://personaltaskmanager-backend-c1vs.onrender.com/api/tasks';
+const API_BASE = 'https://personaltaskorganizer-backend.onrender.com/api/tasks';
 
 const Dashboard = () => {
   const context = useOutletContext() || [];

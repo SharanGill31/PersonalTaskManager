@@ -14,7 +14,7 @@ const Login = ({ onSubmit, onSwitchMode }) => {
   const [rememberMe, setRememberMe] = useState(false)
 
   const navigate = useNavigate();
-  const url = 'https://personaltaskmanager-backend-c1vs.onrender.com';
+  const url = 'https://personaltaskorganizer-backend.onrender.com';
 
   useEffect(() => {
     const token = localStorage.getItem("token")
