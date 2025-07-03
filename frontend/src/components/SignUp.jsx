@@ -42,7 +42,7 @@ const SignUp = ({ onSwitchMode }) => {
           <UserPlus className="w-8 h-8 text-white" />
         </div>
         <h2 className="text-2xl font-bold text-gray-800">Create Account</h2>
-        <p className="text-gray-500 text-sm mt-1">Become part of TaskPlus to efficiently manage your tasks.</p>
+        <p className="text-gray-500 text-sm mt-1">Become part of TaskPulse to efficiently manage your tasks.</p>
       </div>
       {message.text && (
         <div className={message.type === 'success' ? MESSAGE_SUCCESS : MESSAGE_ERROR}>
